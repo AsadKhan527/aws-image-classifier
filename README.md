@@ -2,24 +2,30 @@
 New Skill Unlocked: Full-Stack AI on AWS 🚀
 
 Built from scratch — a fully working, real-time image classification platform using React + FastAPI + AWS (S3, SageMaker, DynamoDB, SNS).
-
 Upload an image → Get predictions → See results → Receive an email. Zero servers, 100% cloud.
 
 🌐 Live Demo Flow
+
 Upload an image (JPEG/PNG)
 Inference via SageMaker (pretrained model)
 SageMaker gives you top-3 predictions (currently raw class labels like 281, 285)
 Image stored in S3
 Result saved to DynamoDB
 Email sent via SNS with prediction
+
 🧩 Tech Stack
+
 Layer	Tech Used
 Frontend	React, TypeScript, Tailwind
 Backend	FastAPI, Python
 Cloud	AWS S3, SageMaker, SNS, DynamoDB
 Dev Tools	GitHub, VS Code, Postman, Uvicorn
 Features
-Real-time image upload to S3 SageMaker model prediction Email notifications via SNS History tracking with DynamoDB UI feedback, loading states, and clean progress bar animations
+
+Real-time image upload to S3 SageMaker model prediction 
+Email notifications via SNS 
+History tracking with DynamoDB UI feedback, loading states, and 
+clean progress bar animations
 
 ##Screenshots
 HomeScreen
