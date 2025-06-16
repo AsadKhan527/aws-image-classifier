@@ -1,31 +1,41 @@
-🧠 AWS Image Classifier — Full-Stack AI on the Cloud ☁️
-New Skill Unlocked: Full-Stack AI on AWS 🚀
+# 🧠 AWS Image Classifier — Full-Stack AI on the Cloud ☁️
 
-Built from scratch — a fully working, real-time image classification platform using React + FastAPI + AWS (S3, SageMaker, DynamoDB, SNS).
-Upload an image → Get predictions → See results → Receive an email. Zero servers, 100% cloud.
+**New Skill Unlocked: Full-Stack AI on AWS 🚀**
 
-🌐 Live Demo Flow
+Built from scratch — a fully working, real-time image classification platform using **React + FastAPI + AWS (S3, SageMaker, DynamoDB, SNS)**.
 
-Upload an image (JPEG/PNG)
-Inference via SageMaker (pretrained model)
-SageMaker gives you top-3 predictions (currently raw class labels like 281, 285)
-Image stored in S3
-Result saved to DynamoDB
-Email sent via SNS with prediction
+> Upload an image → Get predictions → See results → Receive an email. Zero servers, 100% cloud.
 
-🧩 Tech Stack
+---
 
-Layer	Tech Used
-Frontend	React, TypeScript, Tailwind
-Backend	FastAPI, Python
-Cloud	AWS S3, SageMaker, SNS, DynamoDB
-Dev Tools	GitHub, VS Code, Postman, Uvicorn
-Features
+## 🌐 Live Demo Flow
 
-Real-time image upload to S3 SageMaker model prediction 
-Email notifications via SNS 
-History tracking with DynamoDB UI feedback, loading states, and 
-clean progress bar animations
+1.  Upload an image (JPEG/PNG)
+2.  Inference via SageMaker (pretrained model)
+3.  SageMaker gives you top-3 predictions (currently raw class labels like 281, 285)
+4.  Image stored in S3
+5.  Result saved to DynamoDB
+6.  Email sent via SNS with prediction
+
+---
+
+## 🧩 Tech Stack
+
+| Layer      | Tech Used                         |
+|------------|-----------------------------------|
+| Frontend   | `React`, `TypeScript`, `Tailwind` |
+| Backend    | `FastAPI`, `Python`               |
+| Cloud      | `AWS S3`, `SageMaker`, `SNS`, `DynamoDB` |
+| Dev Tools  | `GitHub`, `VS Code`, `Postman`, `Uvicorn` |
+
+---
+
+## Features
+ Real-time image upload to S3
+ SageMaker model prediction
+ Email notifications via SNS
+ History tracking with DynamoDB
+ UI feedback, loading states, and clean progress bar animations
 
 ##Screenshots
 HomeScreen
